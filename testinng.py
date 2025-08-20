@@ -37,6 +37,7 @@ def on_click():
         prediction = labels[max_prob]
         
         lbl.configure(text=prediction)
+        
     except IOError :
         print("Error")
 
